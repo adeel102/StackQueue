@@ -11,23 +11,9 @@ package Collection;
  */
 public  abstract class CollectionAbstract {
     
-    public  Object pop() throws NoElementException
-    {
-        return null;
-    }
     public abstract Object peek () throws NoElementException;
-
-    public void push (Object obj)
-    {
-        
-    }
-    public void enqueue(Object obj )
-    {
-        
-    }
-    public Object dequeue () throws NoElementException
-    {
-        return null;
-    }
+    
+    public abstract boolean equals(Queue queue);
+    public abstract boolean equals(Stack stack);
     
 }
