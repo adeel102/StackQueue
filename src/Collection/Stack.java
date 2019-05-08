@@ -92,8 +92,7 @@ public class Stack extends CollectionAbstract {
             if (this.top.item != queue.first.item) {
                 return false;
             }
-            this.top
-                    = top = top.link;
+            this.top = top.link;
             queue.first = queue.first.next;
         }
         return true;
